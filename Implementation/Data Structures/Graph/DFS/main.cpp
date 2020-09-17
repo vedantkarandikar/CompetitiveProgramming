@@ -22,7 +22,7 @@ struct Graph {
     int dfs_timer = 0;
 
 
-    Graph(int n) : d(n), p(n), used(n) {
+    Graph(int n) : d(n), p(n), used(n), color(n), time_in(n), time_out(n){
 	this->n = n;
 	for(int i=0;i<n;i++) {
 	    vector<Edge> tmp;
