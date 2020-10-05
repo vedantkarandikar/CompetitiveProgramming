@@ -1,1 +1,0 @@
-https://www.hackerrank.com/challenges/x-and-his-shots/problem
